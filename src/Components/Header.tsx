@@ -1,19 +1,19 @@
-import "./Header.css";
+//import "../style/Header.css";
 
 export const Header: React.FC = () => {
   return (
     <header>
-      <ul>
-        <li>
+      <ul className="flex">
+        <li className="flex-auto w-64">
           <a href="#">Home</a>
         </li>
-        <li>
+        <li className="flex-auto w-64">
           <a href="#">About</a>
         </li>
-        <li>
+        <li className="flex-auto w-64">
           <a href="#">Project</a>
         </li>
-        <li>
+        <li className="flex-auto w-64">
           <a href="#">Contact</a>
         </li>
       </ul>
